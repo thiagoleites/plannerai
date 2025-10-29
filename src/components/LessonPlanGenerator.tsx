@@ -2,8 +2,9 @@ import { useState } from 'react';
 import { Wand2, Loader2 } from 'lucide-react';
 import { supabase, type LessonPlan, type ActivityStep, type EvaluationCriterion } from '../lib/supabase';
 
-const GEMINI_API_KEY = 'AIzaSyC0ZrH2sxnRb3gM4DcjkCa8lFXjRrZCWmE';
-const GEMINI_MODEL = 'gemini-2.0-flash-exp';
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+const GEMINI_MODEL = import.meta.env.VITE_GEMINI_MODEL;
+
 
 interface LessonPlanGeneratorProps {
   onPlanGenerated: (plan: LessonPlan) => void;
