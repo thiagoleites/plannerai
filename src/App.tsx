@@ -82,7 +82,7 @@ function App() {
 
       {selectedPlan && <PlanViewer plan={selectedPlan} onClose={handleClosePlan} />}
 
-      <footer className="absolte block w-full bottom-0 bg-white border-t border-slate-200 mt-12">
+      <footer className="absolute block w-full bottom-0 bg-white border-t border-slate-200 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <p className="text-center text-sm text-slate-600">
             Gerador de Planos de Aula com IA - made by Thiago Leite
