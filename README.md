@@ -147,6 +147,12 @@ CREATE TABLE IF NOT EXISTS lesson_plans (
 
 ## 8️⃣ 📜 Licença e Autoria
 
-**Licença:** MIT © 2025  
-**Autor:** Thiago Leite  
-📧 **Contato:** thiago@devt.com.br
+
+>
+> Este projeto é de propriedade de **Thiago Leite**.  
+> Todos os direitos reservados.  
+> É **estritamente proibido** copiar, utilizar, modificar, redistribuir ou incorporar qualquer parte deste código ou documentação sem autorização **prévia e por escrito** do autor.
+>
+> O uso não autorizado constitui violação de direitos autorais (Lei nº 9.610/1998) e poderá resultar em medidas legais civis e criminais.
+>
+> Contato para autorização: **thiago@devt.com.br**
